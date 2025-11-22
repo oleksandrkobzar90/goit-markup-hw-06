@@ -395,7 +395,7 @@ a {
   text-align: center;
   color: #fff;
   margin-bottom: 72px;
-  max-width: 216px;
+  max-width: 160px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -813,11 +813,6 @@ a {
   align-items: center;
 }
 
-.footer-studio,
-.footer-description {
-  color: #f4f4fd;
-}
-
 .footer-logo-description {
   margin-bottom: 72px;
 }
@@ -826,6 +821,11 @@ a {
   display: flex;
   justify-content: center;
   margin-bottom: 16px;
+}
+
+.footer-studio,
+.footer-description {
+  color: #f4f4fd;
 }
 
 .socila-media {
@@ -930,6 +930,7 @@ a {
 
   .footer-logo-description {
     margin-right: 24px;
+    max-width: 264px;
   }
 
   .socila-media {
@@ -971,9 +972,6 @@ a {
 
   .footer-logo-description {
     margin-right: 120px;
-  }
-
-  .footer-logo-description {
     margin-bottom: 0;
   }
 
