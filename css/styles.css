@@ -982,6 +982,7 @@ a {
 
   .footer-container {
     flex-wrap: nowrap;
+    padding-left: 0;
   }
 
   .footer-logo-description {
