@@ -240,11 +240,18 @@ a {
 
 .mobile-menu-container {
   position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   padding-top: 72px;
   padding-bottom: 40px;
   display: flex;
   flex-direction: column;
   height: 100%;
+}
+
+.mobile-menu:not(.is-open) .mobile-menu-container {
+  transform: translate(-50%, -100%);
 }
 
 .close-btn {
